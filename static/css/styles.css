@@ -41,6 +41,8 @@ body {
   background-repeat: no-repeat;
   margin: 0;
   user-select: none;
+  height: 40px;
+  width:40px;
 }
 .main {
   width: 100vw;
