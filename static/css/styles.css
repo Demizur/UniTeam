@@ -37,12 +37,8 @@ body {
   font-weight: 900;
   color: transparent;
   pointer-events: none;
-  background-image: url(../img/logo.jpg);
-  background-repeat: no-repeat;
   margin: 0;
   user-select: none;
-  height: 40px;
-  width:40px;
 }
 .main {
   width: 100vw;
