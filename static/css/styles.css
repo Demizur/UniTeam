@@ -166,10 +166,16 @@ body {
   flex-wrap: wrap;
 }
 #video-grid-plus5{
-  display: grid;
+  /*display: grid;
   justify-content: center;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 320px;
+  grid-template-rows: 320px;*/
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto-fill, 120px);
+  grid-row-gap: .5em;
+  grid-column-gap: 1em;
 }
 video {
   height: 320px;
